@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Survey Form</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+        <h1 id="title">Swekit's Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve</p>
+
+        <div>
+            <form id="survey-form">
+                <fieldset>
+                    <label id="name-label" for="name">Name<input id="name" type="text" placeholder="Enter your name" required/></label>
+                    
+                    <label id="email-label" for="email">Email<input id="email" type="email" placeholder="Enter your email" required/></label>
+
+                    <label id="number-label" for="number">Age<input id="number" type="number" min="13" max="120" placeholder="Enter your email" required/></label>
+                </fieldset>
+
+                <fieldset>
+                    <select id="dropdown">
+                        <option>Bus</option>
+                        <option>Train</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Gender(required)</legend>
+                    <label for="male"><input id="male" type="radio" name="gender-type" class="inline" value="male" checked /> Male</label>
+                    <label for="female"><input id="female" type="radio" name="gender-type" class="inline" value="female"/> Female</label>
+                </fieldset>
+
+
+                <label class="container">One
+                    <input type="checkbox" checked="checked" value="one">
+                    <span class="checkmark"></span>
+                  </label>
+                  
+                  <label class="container">Two
+                    <input type="checkbox" value="two">
+                    <span class="checkmark"></span>
+                  </label>
+
+                <label><textarea></textarea></label>
+
+
+
+
+
+
+
+                <input id="submit" type="submit" value="Submit" />
+            </form>
+        </div>
+    </body>
+</html>
