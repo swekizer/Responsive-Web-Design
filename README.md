@@ -39,7 +39,6 @@ To explore the projects:
 This repository is licensed under the [MIT License](LICENSE).
 
 ---
-Feel free to fork and modify these projects as you continue to learn and improve your web development skills!
 
 Happy coding! 🚀
 
